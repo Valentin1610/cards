@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+body{
+    background-color: #314A60 ;
+}
+h1{
+  text-align: center;
+  font-style: italic;
+}
+.container{
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    width: 22%;
+    border-radius: 25px;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color:white;
+    margin: 17px; 
+    display: inline-block;
+}
+  .card img {
+    width: 100%;
+    border-radius: 25px;
+    vertical-align: middle;
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    color: black;
+  }
+p{
+    font-size: small;
+}
+.card1, .card2, .card3{
+  width: 22%;
+  border-radius: 25px;
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 18px; 
+  display: inline-block;
+  background: linear-gradient(to top left, #FDC032 11%, #8B6F2F 100%);
+}
+  .card1 img{
+    width: 100%;
+    border-radius: 25px;
+    vertical-align: middle;
+  }
+.card2 img{
+  width: 100%;
+  border-radius:25px;
+  vertical-align: middle;
+} 
+.card3 img{
+  width: 100%;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+.card4 {
+  width: 22%;
+    border-radius: 25px;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 18px; 
+    display: inline-block;
+    background-color:white;
+}
+.card4 img{
+  width: 100%;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+@media screen and (max-width:800px){
+  .card , .card1 , .card2 , .card3 , .card4{
+    flex-direction: column;
+    width: 100%;
+  }
+}
